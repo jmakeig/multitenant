@@ -103,3 +103,9 @@ src/
 scripts/
   smoke.ts             # End-to-end isolation test using a stub auth provider
 ```
+
+## Svelte Components
+
+- Wrap each form control (label, input/select/textarea, help text, error text) in a `<div class="control">`.
+- Use explicit `for`/`id` pairs on labels and inputs — do not nest inputs inside labels.
+- No CSS or inline styles. Styling is handled separately.

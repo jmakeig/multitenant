@@ -1,5 +1,5 @@
-import { create_pipeline, type auth_provider } from '../src/api.js'
-import { sql } from '../src/db/client.js'
+import { create_pipeline, type auth_provider } from '../src/lib/server/api.js'
+import { sql } from '../src/lib/server/db/client.js'
 
 function assert(condition: boolean, message: string): void {
 	if (!condition) throw new Error(`Assertion failed: ${message}`)
